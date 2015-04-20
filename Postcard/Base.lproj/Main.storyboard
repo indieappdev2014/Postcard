@@ -96,6 +96,15 @@
                                     <rect key="frame" x="16" y="72" width="352" height="57"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cgt-ql-4CP">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="143" width="244" height="38"/>
+                                </variation>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RvW-13-0O4">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -110,6 +119,7 @@
                                 <exclude reference="WNJ-VC-y2c"/>
                                 <exclude reference="GMB-aW-3Nj"/>
                                 <exclude reference="5mV-1M-anR"/>
+                                <exclude reference="Cgt-ql-4CP"/>
                                 <exclude reference="RvW-13-0O4"/>
                             </mask>
                         </variation>
@@ -119,6 +129,7 @@
                                 <include reference="WNJ-VC-y2c"/>
                                 <include reference="GMB-aW-3Nj"/>
                                 <include reference="5mV-1M-anR"/>
+                                <include reference="Cgt-ql-4CP"/>
                                 <include reference="RvW-13-0O4"/>
                             </mask>
                         </variation>
@@ -127,6 +138,7 @@
                         <outlet property="mailButton" destination="GMB-aW-3Nj" id="2yr-Kp-w1p"/>
                         <outlet property="messageLabel" destination="5mV-1M-anR" id="pEd-LD-faw"/>
                         <outlet property="messageTextField" destination="WNJ-VC-y2c" id="Imp-I1-Cbc"/>
+                        <outlet property="nameLabel" destination="Cgt-ql-4CP" id="sKl-L7-e8S"/>
                         <outlet property="nameTextField" destination="Rmi-sk-IGC" id="QM0-NY-zZE"/>
                     </connections>
                 </viewController>
