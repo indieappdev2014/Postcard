@@ -29,11 +29,13 @@ class ViewController: UIViewController {
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         messageLabel.hidden = false
         messageLabel.text = messageTextField.text
+        // Change the color of the text added
         messageLabel.textColor = UIColor.redColor()
         
         messageTextField.text = ""
         messageTextField.resignFirstResponder()
         
+        //Change the title of the button
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
     }
    
